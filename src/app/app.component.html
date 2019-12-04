@@ -9,14 +9,16 @@
   <button mat-button class="abc-btn-thema "> Click me!</button>
   <button mat-button class="abc-btn-thema-full"> Click me!</button>
 
-  <div>
+  <div class="margin-vertival">
+      <h3> Tab</h3>
     <mat-tab-group>
       <mat-tab label="First"> Content 1 </mat-tab>
       <mat-tab label="Second"> Content 2 </mat-tab>
       <mat-tab label="Third"> Content 3 </mat-tab>
     </mat-tab-group>
   </div>
-  <div>
+  <div class="margin-vertival">
+    <h3> Horizontal Stepper</h3>
     <mat-horizontal-stepper [linear]="isLinear" #stepper>
       <mat-step [stepControl]="firstFormGroup">
         Fill out your address
