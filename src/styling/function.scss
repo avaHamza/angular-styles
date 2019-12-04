@@ -1,0 +1,22 @@
+@mixin space-between($padding, $margin) {
+    padding: $padding;
+    margin: $margin;
+}
+
+@mixin abc-btn($background, $textColor, $primaryColor) {
+    background-color: $background;
+    color: $textColor;
+    border: 1px solid $primaryColor;
+}
+
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+    @if $inset {
+      -webkit-box-shadow:inset $top $left $blur $color;
+      -moz-box-shadow:inset $top $left $blur $color;
+      box-shadow:inset $top $left $blur $color;
+    } @else {
+      -webkit-box-shadow: $top $left $blur $color;
+      -moz-box-shadow: $top $left $blur $color;
+      box-shadow: $top $left $blur $color;
+    }
+  }

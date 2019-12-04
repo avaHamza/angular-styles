@@ -1,0 +1,49 @@
+@import './function.scss';
+
+/*Default Theme*/
+
+// $primaryColor: #172F55;
+// $secondaryColor: #fafafa;
+// $activeColor: #05ceaa;
+// $hoverColor: #6B6B6B;
+// $sideNavParentFontColor: #212121;
+// $sideNavParentFontBackgroundColor: #EFEFEF;
+// $sideNavChildFontColor: #313131;
+
+$primaryColor: #172F55;
+$secondaryColor: #0E1C31;
+$activeColor: #F2602C;
+$hoverColor: #2196f3;
+$sideNavParentFontColor: #FFFFFF;
+$sideNavParentFontBackgroundColor: #172F55;
+$sideNavChildFontColor: #95999D;
+
+$scroll: #a1a1a1;
+$scrollBackground: #f1f1f1;
+$fontName: 'Roboto Slab, serif';
+$white: #fff;
+$red: #db4444;
+$transparent: 'transperent';
+
+
+
+/* Dark Theme*/
+
+$primaryColor: #172F55;
+$secondaryColor: #0E1C31;
+$hoverColor: #2196f3;
+$sideNavParentFontColor: #FFFFFF;
+$sideNavParentFontBackgroundColor: #172F55;
+$sideNavChildFontColor: #95999D;
+
+/* font size*/
+$fs-table: 0.8rem;
+$fs-form: 0.9rem;
+$fs-sidebar-list: 0.9rem; 
+$fs-table-header: 0.8rem;
+
+$icon-navbar-size: 1.2rem;
+$icon-btn-size: 1rem;
+
+$table-cell-color: rgba(0, 0, 0, 0.64);
+$table-header-color:rgba(0, 0, 0, 0.72);

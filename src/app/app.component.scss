@@ -1,0 +1,80 @@
+@import './../styling/colors.scss';
+
+.container {
+    width: 80%; 
+    margin: 0 auto;
+}
+
+.abc-btn-border {
+    @include abc-btn($transparent, $primaryColor, $primaryColor);
+    @include space-between(0 10px, 10px);
+}
+
+.abc-btn-full-color {
+    @include abc-btn( $primaryColor, $white, $primaryColor );
+    @include space-between(0 10px, 10px);
+}
+
+.abc-btn-rounded {
+    @include abc-btn( $primaryColor, $white, $primaryColor );
+    @include space-between(0 20px, 10px);
+    border-radius: 20px;
+}
+
+.abc-btn-rounded-border {
+    @include abc-btn($transparent, $primaryColor, $primaryColor);
+    @include space-between(0 20px, 10px);
+    border-radius: 20px;
+}
+
+.abc-btn-warning {
+    @include abc-btn( $red, $white, $red );
+    @include space-between(0 10px, 10px);
+}
+
+.abc-btn-thema {
+    @include abc-btn('transperent', $activeColor, $activeColor);
+    @include space-between(0 20px, 10px);
+    border-radius: 20px;
+}
+
+.abc-btn-thema-full {
+    @include abc-btn($activeColor, $white, $activeColor);
+    @include space-between(0 20px, 10px);
+    border-radius: 20px;
+}
+
+::ng-deep .mat-tab-label { 
+    @include box-shadow(0, 1px, 2px, rgba(0, 0, 0, 0.2));
+    height: 37px !important;
+}
+
+::ng-deep .mat-tab-group.mat-primary .mat-ink-bar {
+    background-color: $activeColor;
+} 
+
+::ng-deep .mat-horizontal-stepper-header{
+    width: 24px;
+}
+
+::ng-deep .mat-step-header .mat-step-icon-selected {
+    background-color: $activeColor;
+}
+
+::ng-deep .mat-step-header .mat-step-icon-state-edit {
+    background-color: $primaryColor;
+}
+
+.example-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .example-container > * {
+    width: 100%;
+  }
+
+  ::ng-deep .mat-form-field-infix {
+      font-size: $fs-form;
+  }
+
