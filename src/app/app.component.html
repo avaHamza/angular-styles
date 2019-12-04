@@ -1,4 +1,12 @@
 <!--The content below is only a placeholder and can be replaced.-->
+<div class="abc-nav">
+    <button mat-button class="abc-btn-border" [matMenuTriggerFor]="menu">Menu</button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>Item 1</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
+</div>
+
 <div class="container">
   <h1>Angular Component</h1>
   <button mat-button class="abc-btn-border"> Click me!</button>

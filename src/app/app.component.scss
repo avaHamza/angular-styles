@@ -5,6 +5,11 @@
     margin: 0 auto;
 }
 
+.abc-nav {
+    background-color: $activeColor;
+    @include space-between(10px, 0);
+}
+
 .margin-vertival {
     @include space-between(0, 30px 0 );
 }
